@@ -24,10 +24,9 @@ module.exports = function(app,db) {
     res.download(file); // S
 	})
 
-	app.post("/uploadFile",function(req,res){		
-		console.log(files[0])
-		req.files[0].url = req.headers.host + "/uploads/" + req.files[0].filename;
+	app.post("/uploadFile",function(req,res){
 		
+		req.files[0].url = req.headers.host + "/uploads/" + req.files[0].filename;		
   	
   	db.query('INSERT INTO files SET ?', req.files[0], function(err, result) {	
       if(err) throw err;
