@@ -1,0 +1,14 @@
+
+body {
+	overflow-x: hidden; 
+}
+.videoContainers {
+	display: inline-block;
+	padding: 10px;
+	border: 1px solid #d9edf7;
+}
+
+.filter-div {
+	width: 40%;
+	margin-bottom: 5px;
+}

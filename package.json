@@ -1,0 +1,22 @@
+{
+  "name": "recorded_stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "videos"
+  ],
+  "author": "Ede Obinna",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "multer": "^1.3.0",
+    "mysql": "^2.15.0"
+  }
+}
